@@ -9,7 +9,7 @@ meta:
 collection:
   - name: locadora
     meta:
-      id: fld_2e5481a4553b4e07a4cfd67dafdce65f
+      id: fld_aabffffaab204031ae993e39f7f832ce
       created: 1777595175999
       modified: 1777595175999
       sortKey: -1777595175999
@@ -18,7 +18,7 @@ collection:
       - url: localhost:3000/test
         name: teste conexão
         meta:
-          id: req_936054605abc4254b57dc1a1fca7eb8c
+          id: req_3d2b9fbfc23b42008a4c18b0f64cba5a
           created: 1777595203604
           modified: 1777595539757
           isPrivate: false
@@ -38,16 +38,39 @@ collection:
             send: true
             store: true
           rebuildPath: true
+      - url: localhost:3000/test/tables
+        name: lista tables
+        meta:
+          id: req_e0ab3cf609054f86a7f068c9aa8ee9ef
+          created: 1778202345052
+          modified: 1778202354801
+          isPrivate: false
+          description: ""
+          sortKey: -1777595203554
+        method: GET
+        headers:
+          - name: User-Agent
+            value: insomnia/12.1.0
+            description: ""
+            disabled: false
+        settings:
+          renderRequestBody: true
+          encodeUrl: true
+          followRedirects: global
+          cookies:
+            send: true
+            store: true
+          rebuildPath: true
 cookieJar:
   name: Default Jar
   meta:
     id: jar_99d30891da4bdcebc63947a8fc17f076de878684
-    created: 1777595132879
-    modified: 1777595132879
+    created: 1778198621592
+    modified: 1778198621592
 environments:
   name: Base Environment
   meta:
     id: env_99d30891da4bdcebc63947a8fc17f076de878684
-    created: 1777595132876
-    modified: 1777595132876
+    created: 1778198621590
+    modified: 1778198621590
     isPrivate: false
