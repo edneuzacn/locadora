@@ -16,7 +16,7 @@ const testConnection = async (req, res) => {
 
 const listTables = async (req, res) => {
     try{
-        const table = await connection.raw(
+        const tables = await connection.raw(
             "SELECT name FROM sqlite_master WHERE type = 'table'"
         )
         return res.json(tables)
